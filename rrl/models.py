@@ -166,7 +166,7 @@ class MLLP_tower(nn.Module):
         for bottom_net in self.bottom_net_list:
             for layer in bottom_net.layer_list[:]:
                 layer.clip()
-        for layer in self.top_net.layer_list[: -1]:
+        for layer in self.top_net.layer_list[:]:
             layer.clip()
 
     def forward(self, u,i,x_list):
