@@ -13,6 +13,11 @@ This is a `pytorch` implementation of NS-ICF model.
 - Python 3.7
 - Pytorch>=1.4.0
 
+### Notes
+We extract the country imformation of the movie in DBLP.
+
+
+
 ### References
 If you find this work helpful in your research, please consider citing the following paper. The bibtex are listed below:
 
