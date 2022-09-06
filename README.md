@@ -15,6 +15,7 @@ This is a `pytorch` implementation of NS-ICF model.
 
 ### Notes
 We extract the country imformation of the movie in DBLP.
+
 The code will be updated after interface for super parameter adjustment was done.
 
 ### References
